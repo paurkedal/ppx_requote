@@ -1,0 +1,4 @@
+(test
+ (name test_requote)
+ (preprocess (pps ppx_requote))
+ (libraries alcotest))
