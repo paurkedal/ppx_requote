@@ -86,10 +86,10 @@ followed by a multi-line body and
 The resulting text will then be adjusted according to the following
 semi-colon separated flags in header line (no spaces allowed):
 
-  - `left=`*n* indents each line by *n* spaces,
-  - `top=`*n* adds *n* blank lines at the top,
-  - `bottom=`*n* adds *n* blank lines at the bottom, and, as a special case,
-  - `bottom=-1` removes the newline from the last line.
+  - <code>left=<em>n</em></code> indents each line by *n* spaces,
+  - <code>top=<em>n</em></code> adds *n* blank lines at the top,
+  - <code>bottom=<em>n</em></code> adds *n* blank lines at the bottom, and, as a special case,
+  - <code>bottom=-1</code> removes the newline from the last line.
 
 To supplement the example in the introduction, the following self-explaining
 example shows how to adjust add margins:
